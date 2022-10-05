@@ -1,0 +1,109 @@
+body{
+  background-color: #C4CCD2;
+  box-sizing: border-box;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.title{
+  margin: 6rem auto 3rem;
+  text-align: center;
+}
+
+.add{
+  width: 28rem;
+  margin: auto;
+}
+
+.add-task{
+  width: 26rem;
+  outline: none;
+  border: none;
+  background-color: #D9D9D9;
+  padding: 1rem;
+}
+
+.add-btn{
+  display: block;
+  margin: 1rem auto;
+  border: none;
+  width: 28rem;
+  padding: 1rem;
+  cursor: pointer;
+  background-color: #40558A;
+  color: #fff;
+  border-radius: 5px;
+}
+
+.add-btn:hover{
+  background-color: #495f97;
+}
+
+.task-list{
+  width: 26rem;
+  padding: 1rem;
+  margin: 2rem auto;
+  background-color: #DEE0E4;
+}
+
+.task-list h3{
+  text-align: start;
+}
+
+#filter{
+  background-color: transparent;
+  border: none;
+  border-bottom: solid 2px #b9b9bb;
+  width: 95%;
+  padding: .5rem;
+  margin: 1rem auto;
+  outline: none;
+}
+
+.my-task{
+  width: 100%;
+  background-color: #D9D9D9;
+}
+
+.list{
+  background-color: #C4CCD2;
+  color: #fff;
+  padding: 0;
+  margin: 0;
+  text-align: left;
+}
+
+.list-item{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #6677a3;
+  width: 95%;
+  list-style: none;
+  margin: 1rem auto;
+  padding: 1rem .5rem;
+}
+
+.delete-item{
+  display: flex;
+  justify-content: end;
+  cursor: pointer;
+  color: #0942d3;
+}
+
+.clear-btn{
+  display: flex;
+  justify-content: end;
+}
+
+.clear{
+  text-align: start;
+  margin-left: auto;
+  padding: .5rem 1rem;
+  cursor: pointer;
+  border: #495f97;
+  background-color: #c8cee0;
+  color: #3f3f3f;
+  font-weight: 500;
+  border-radius: 5px;
+  font-size: 1rem;
+}

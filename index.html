@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <title>Task List</title>
+    <link rel="stylesheet" href="./main.css" />
+  </head>
+  <body>
+    <header>
+      <h2 class="title">To Do List</h2>
+      <form id="task-form" class="add">
+        <input
+          type="text"
+          placeholder="what do you have planned?"
+          class="add-task"
+        />
+        <input class="add-btn" type="submit" value="Add" />
+      </form>
+    </header>
+    <main class="task-list">
+      <h3>Tasks</h3>
+      <div>
+        <input
+          type="text"
+          name="filter"
+          id="filter"
+          placeholder="Filter Tasks"
+        />
+      </div>
+      <ul class="list"></ul>
+      <div class="clear-btn">
+        <button class="clear">Clear Tasks</button>
+      </div>
+    </main>
+    <script src="main.js"></script>
+  </body>
+</html>
